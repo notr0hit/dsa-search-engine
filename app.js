@@ -167,13 +167,7 @@ app.get("/search", (req, res) => {
   // Now we need to filter out those keywords which are present in our dataset
   let temp = [];
   for (let i = 0; i < queryKeywords.length; i++) {
-    let id = keywords.indexOf(queryKeywords[i]);
-    for (let j = 0; j < keywords.length; j++) {
-      if (keywords[j].trim() == queryKeywords[i]) {
-        id = j;
-      }
-    }
-
+    const id = keywords.indexOf(queryKeywords[i]);
     if (id !== -1) {
       temp.push(queryKeywords[i]);
     }

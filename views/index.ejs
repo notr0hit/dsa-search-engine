@@ -148,17 +148,8 @@
 
     <section class="footer">
       <div class="footer-container">
-        <a
-          href="https://www.linkedin.com/in/aditya-agrawal-37721b146/"
-          target="_blank"
-          class="footer-link link-1"
-          ><img src="/icons8-linkedin.svg" alt=""
-        /></a>
-        <a href="mailto: adityaagr00@gmail.com" class="footer-link link-2"
-          ><img src="/icons8-mail-50.png" alt=""
-        /></a>
       </div>
-      <div class="copy-container">&copy; 2022 Made by Aditya Agrawal</div>
+      <div class="copy-container">&copy; 2023 Made by Rohit Khare</div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -232,7 +223,7 @@
           //   console.log("HELLO");
           const res = await fetch(`/search?query=${query}`, { method: "GET" });
           const data = await res.json();
-
+          console.log(data)
           loadingSection.style.display = "none";
 
           if (data.length === 0) {
