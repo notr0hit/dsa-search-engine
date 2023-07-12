@@ -96,13 +96,13 @@ body {
 
 .header-laptop-1 {
   grid-area: a;
-  background: #43474a;
+  background: #292a2b;
   border-radius: 10px;
   display: grid;
   align-items: center;
   /* grid-template-rows: 1fr 1fr; */
   font-size: 4rem;
-  color: #1a7bb7;
+  color: #ffffff;
 }
 
 .header-laptop-1-container {
@@ -154,13 +154,13 @@ body {
 } */
 .header-laptop-4 {
   grid-area: c;
-  background: #43474a;
+  background: #292a2b;
   border-radius: 10px;
   display: grid;
   align-items: center;
   /* grid-template-rows: 1fr 1fr; */
   font-size: 5rem;
-  color: #1a7bb7;
+  color: #ffffff;
 }
 .header-laptop-5 {
   grid-area: d;
@@ -213,10 +213,10 @@ input {
   border-right: 0;
   width: 80%;
   text-align: center;
-  caret-color: #1a7bb7;
+  caret-color: #ffffff;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #1a7bb7;
+  color: #ffffff;
   padding: 10px;
 }
 
@@ -255,7 +255,7 @@ button {
 .question {
   border-radius: 5px;
   /* border: 1px solid #1a7bb7; */
-  background: #43474a;
+  background: #292a2b;
   padding: 10px;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -294,7 +294,7 @@ button {
 .question {
   border-radius: 5px;
   /* border: 1px solid #1a7bb7; */
-  background: #43474a;
+  background: #292a2b;
   padding: 10px;
   text-align: center;
   margin-bottom: 1.5rem;
